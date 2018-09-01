@@ -2,7 +2,7 @@
 """
 Created on Sat Sep  1 02:07:13 2018
 
-@author: write
+@author: Jack Thompson - 'MercuryJack'
 """
 
 # import libraries
