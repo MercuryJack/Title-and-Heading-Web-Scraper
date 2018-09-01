@@ -19,20 +19,17 @@ page = urlopen(quote_page)
 soup = BeautifulSoup(page, 'html.parser')
 
 #now we have the HTML as soup, so we need to grab the title and headers
-for x in soup:
-    title = soup.find('title')
-    h1s = soup.find_all('h1')
-    h2s = soup.find_all('h2')
-    h3s = soup.find_all('h3')
+title = soup.find('title')
+h1s = soup.find_all('h1')
+h2s = soup.find_all('h2')
+h3s = soup.find_all('h3')
 
 #print out the data in readable format, including "none" for missing data types
 print()
 print('Title:')
-for t in title:
-    print(title) 
+print(title) 
 print()
 print('H1s:')
-
 print(h1s)
 print()
 print('H2s:')
